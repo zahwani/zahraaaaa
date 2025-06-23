@@ -1,0 +1,805 @@
+body {
+      font-family: sans-serif;
+      background-color: #f7f7f7;
+      padding: 20px;
+    }
+  
+  /* Gambar 1 */
+    .gambar1 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto1Preview {
+      display: none;
+    }
+
+    #foto1Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+  /* Gambar 2 */
+    .gambar2 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto2Preview {
+      display: none;
+    }
+
+    #foto2Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 3 */
+    .gambar3 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto3Preview {
+      display: none;
+    }
+
+    #foto3Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 4 */
+    .gambar4 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto4Preview {
+      display: none;
+    }
+
+    #foto4Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 5 */
+    .gambar5 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto5Preview {
+      display: none;
+    }
+
+    #foto5Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 6 */
+    .gambar6 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto6Preview {
+      display: none;
+    }
+
+    #foto6Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 7 */
+    .gambar7 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto7Preview {
+      display: none;
+    }
+
+    #foto7Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 8 */
+    .gambar8 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto8Preview {
+      display: none;
+    }
+
+    #foto8Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 9 */
+    .gambar9 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto9Preview {
+      display: none;
+    }
+
+    #foto9Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 10 */
+    .gambar10 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto10Preview {
+      display: none;
+    }
+
+    #foto10Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 11 */
+    .gambar11 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto11Preview {
+      display: none;
+    }
+
+    #foto11Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 12 */
+    .gambar12 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto12Preview {
+      display: none;
+    }
+
+    #foto12Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 13 */
+    .gambar13 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto13Preview {
+      display: none;
+    }
+
+    #foto13Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 14 */
+    .gambar14 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto14Preview {
+      display: none;
+    }
+
+    #foto14Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 14 */
+    .gambar14 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto14Preview {
+      display: none;
+    }
+
+    #foto14Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 15 */
+    .gambar15 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto15Preview {
+      display: none;
+    }
+
+    #foto15Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 16 */
+    .gambar16 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto16Preview {
+      display: none;
+    }
+
+    #foto16Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 17 */
+    .gambar17 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto17Preview {
+      display: none;
+    }
+
+    #foto17Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 18 */
+    .gambar18 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto18Preview {
+      display: none;
+    }
+
+    #foto18Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 19 */
+    .gambar19 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto19Preview {
+      display: none;
+    }
+
+    #foto19Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    /* Gambar 20 */
+    .gambar20 {
+      width: 200px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .preview-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    .preview-overlay img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #foto20Preview {
+      display: none;
+    }
+
+    #foto20Preview:checked + .preview-overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
