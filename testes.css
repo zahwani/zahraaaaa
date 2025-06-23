@@ -1,0 +1,258 @@
+body {
+    font: 16px Arial, sans-serif;
+    background-color:#FDF2E9; 
+    color:#FFFFFF;
+}
+
+.container {
+    background-color:#f9c0af ; 
+    margin: auto;
+    width: 800px;
+}
+
+.header{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header,ul,li{
+    display: inline-block;
+    margin: 20px;
+}
+
+header, a{
+    text-decoration: none;
+    color: #263238;
+}
+
+
+.beranda{
+    background-color:#f9c0af ;
+    margin: auto;
+    color: salmon;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white; /* Slightly transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    background-image: url(backroundberanda.jpg);
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Center the image */
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center content vertically */
+    color: #fff; /* Ensure text is white for contrast */
+    position: relative; /* Allow content to be positioned */
+    z-index: 1; /* Ensure hero is behind header */
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #fff; /* White for contrast */
+}
+
+
+
+.beranda-card p {
+    color: black;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f9c0af; /* Soft pink */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f9c0af; 
+}
+
+.profil h2{
+    color: white;
+}
+
+.profile-image {
+    width: 200px; /* Ubah lebar gambar sesuai kebutuhan */
+    height: 200px; /* Ubah tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Menjaga proporsi gambar saat mengubah ukuran */
+    margin-bottom: 15px; /* Margin di bawah gambar */
+    border: 3px solid #f9c0af; /* Border warna pink soft */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan lembut di bawah gambar */
+}
+
+.domain{
+  padding:100px ;
+    border: 1px solid #999;
+    vertical-align: top;
+    border-radius: 12px;
+    margin-top: 100px;
+}
+.domain td{
+     padding: 8px 12px;
+    border: 1px solid #999;
+    vertical-align: top;
+    border-radius: 20px;
+     background-color:#f9c0af; 
+    border: 1px solid gray;   
+}
+.domain:first-child{
+    background: #f5f5f5;
+    font-weight: bold;
+    width: 30%;
+     background-color: #999; 
+    border: 1px solid #999; 
+}
+
+h2 {
+    color: salmon; /* Darker soft green */
+}
+
+h3 {
+    color: #5b9e69; /* Darker soft green for subsection headers */
+}
+
+.galeri {
+    background-color: #f9c0af; /* Sama dengan profil dan beranda */
+    border-radius: 10px; /* Sudut membulat untuk estetika */
+    padding: 20px; /* Padding dalam section */
+    box-shadow: 0 4px 12px #f9c0af; /* Bayangan halus untuk kedalaman */
+    margin: 20px auto; /* Center section */
+    max-width: 10000px; /* Lebar maksimum untuk section */
+    text-align: center; /* Teks terpusat */
+}
+
+.galeri h2 {
+    color: white; /* Menggunakan warna header yang sama */
+}
+
+.galeri-card h3{
+    color: salmon;
+}
+
+.galeri {
+    display: flex; /* Gunakan flexbox untuk layout media cards */
+    flex-direction: column; /* Susun kartu secara vertikal */
+    align-items: center; /* Pusatkan kartu secara horizontal */
+    
+}
+
+.galeri-card {
+    background-color: white; /* Warna latar belakang sama dengan profil */
+    border-radius: 10px; /* Sudut membulat untuk media card */
+    padding: 15px; /* Padding di dalam media card */
+    margin: 10px 0; /* Margin antara media cards */
+    box-shadow: #f9c0af; /* Bayangan halus untuk media cards */
+    transition: transform 0.3s; /* Transisi halus untuk efek hover */
+    width: 1200px; /* Lebar penuh kartu */
+    max-width: 1015px; /* Lebar maksimum untuk media cards */
+}
+
+.artikel h3 {
+    margin-left: 10px;
+    color: salmon;
+}
+
+.artikel {
+    border-radius: 10px;
+    background-color: #f9c0af ;
+    padding: auto;
+    padding-bottom: 40px;
+    
+}
+
+.artikel-card{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.artikel p {
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.gambarartikel img  {
+height: 200px;
+width: 300px;
+ display: flex;
+
+}
+
+.artikel h2 {
+    padding-top: 50px;
+    color: white;
+}
+.artikel h3 {
+    padding-top:15px ;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+.tentang {
+    background-color: #f9c0af;
+}
+
+.tentang h2 {
+    color: white;
+}
+
+.tentang h3 {
+    color: salmon;
+}
+
+.tentang-card {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tentang p {
+    line-height: 1.6; /* Better readability */
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+.footer {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 18px;
+    border-radius: 10px;
+}
+.footer .copyright {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
